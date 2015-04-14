@@ -122,3 +122,7 @@ rescue => e
   puts "システムエラー #{e} #{e.message}"
 end
 ```
+
+## License
+
+MITライセンスにて提供しています。詳しくはLICENSEをご覧ください。
