@@ -1,0 +1,111 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://xxxxxxxxxxxxxxxxxxxxxxxx:@fastpay.yahooapis.jp/v1/charges/ch_14314060225230681
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - "*/*; q=0.5, application/xml"
+      Accept-Encoding:
+      - gzip, deflate
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Mon, 02 Jun 2014 05:33:56 GMT
+      P3p:
+      - policyref="http://privacy.yahoo.co.jp/w3c/p3p_jp.xml", CP="CAO DSP COR CUR
+        ADM DEV TAI PSA PSD IVAi IVDi CONi TELo OTPi OUR DELi SAMi OTRi UNRi PUBi
+        IND PHY ONL UNI PUR FIN COM NAV INT DEM CNT STA POL HEA PRE GOV"
+      Cache-Control:
+      - private
+      Vary:
+      - Accept-Encoding
+      Content-Encoding:
+      - gzip
+      Content-Length:
+      - '274'
+      Content-Type:
+      - application/json
+      Age:
+      - '2'
+      Connection:
+      - keep-alive
+      Server:
+      - ATS
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        H4sIAAAAAAAAA12PT0sDMRDFv0vORZI0Xdo9adWCBxEU9SCyTLOz3ZRkE/JH
+        upR+d2e1InrLe/My83tHZlpWM903Qs2F4hWXciHnvFoKNmN+u0edv+YQd0iO
+        NR/ofIus7sAmnDFdYsRBjxTah5ESLSYdTcjGD+R1kHKA8RIP4ILFC+0dZcD5
+        MtDeFec/oonYlaFFoiFPR4Q8vQlJVMsFV3LGAkysORY6+5s+c3RgbInYOEwJ
+        CLUeirW0CCJljueWJJq70j/d7DbPt5vXx2Taq+v1vfEP2/WfutMvKkvwiqSS
+        SpLMY6C97MUkIIWH0Dg/5J4gxbccESKrJRer03Q5ZAL6R5xY/fZ++gSBBQ38
+        dgEAAA==
+    http_version: 
+  recorded_at: Mon, 02 Jun 2014 05:33:57 GMT
+- request:
+    method: post
+    uri: https://xxxxxxxxxxxxxxxxxxxxxxxx:@fastpay.yahooapis.jp/v1/charges/ch_14314060225230681/refund
+    body:
+      encoding: ASCII-8BIT
+      string: ''
+    headers:
+      Accept:
+      - "*/*; q=0.5, application/xml"
+      Accept-Encoding:
+      - gzip, deflate
+      Content-Length:
+      - '0'
+      Content-Type:
+      - application/x-www-form-urlencoded
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Mon, 02 Jun 2014 05:33:57 GMT
+      P3p:
+      - policyref="http://privacy.yahoo.co.jp/w3c/p3p_jp.xml", CP="CAO DSP COR CUR
+        ADM DEV TAI PSA PSD IVAi IVDi CONi TELo OTPi OUR DELi SAMi OTRi UNRi PUBi
+        IND PHY ONL UNI PUR FIN COM NAV INT DEM CNT STA POL HEA PRE GOV"
+      Cache-Control:
+      - private
+      Vary:
+      - Accept-Encoding
+      Content-Encoding:
+      - gzip
+      Content-Length:
+      - '294'
+      Content-Type:
+      - application/json
+      Age:
+      - '0'
+      Connection:
+      - keep-alive
+      Server:
+      - ATS
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        H4sIAAAAAAAAA22QS0/DMBCE/8ueI+S46SsnKFCJA0ICAQeEoq2zaV0lseUH
+        alT1v7MhhULF8VuPZ2d2D7qEHNSmSLNRmomJkHIsR2IySyEBs9qSCl/v6NbE
+        k1p/UGNKgrzC2lMCKjpHrepYtLUdK0ryymkbtGl5VqEPFrtL2mFja7pQpmEN
+        Nia27DsX4hsKR1VsSyqPU+UIQ08cKp3MxiKTCVjs0wYXefFJP3CFuo6Oioa8
+        R86at7Gu2QcdS/bHmgzFXdw83ayXz7fL10evy6vrxb02D6vFn779L27L6TPG
+        TGaSMXSWfeFFe2SinS0a04YNZ0wH7Agd5FKk80O/2QYOdBbYQ/62/zkAcFf4
+        54hn7adyNP2VbnCCw/vhE5Rrt2K/AQAA
+    http_version: 
+  recorded_at: Mon, 02 Jun 2014 05:33:58 GMT
+recorded_with: VCR 2.9.2

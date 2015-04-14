@@ -1,0 +1,19 @@
+LineLength:
+  Enabled: false
+
+MethodLength:
+  Enabled: false
+
+AsciiComments:
+  Enabled: false
+
+StringLiterals:
+  Enabled: false
+
+Metrics/AbcSize:
+  Enabled: true
+  Max: 30
+
+Style/Documentation:
+  Enabled: false
+

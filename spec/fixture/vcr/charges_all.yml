@@ -1,0 +1,64 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://xxxxxxxxxxxxxxxxxxxxxxxx:@fastpay.yahooapis.jp/v1/charges
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - "*/*; q=0.5, application/xml"
+      Accept-Encoding:
+      - gzip, deflate
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Mon, 02 Jun 2014 06:18:55 GMT
+      P3p:
+      - policyref="http://privacy.yahoo.co.jp/w3c/p3p_jp.xml", CP="CAO DSP COR CUR
+        ADM DEV TAI PSA PSD IVAi IVDi CONi TELo OTPi OUR DELi SAMi OTRi UNRi PUBi
+        IND PHY ONL UNI PUR FIN COM NAV INT DEM CNT STA POL HEA PRE GOV"
+      Cache-Control:
+      - private
+      Vary:
+      - Accept-Encoding
+      Content-Encoding:
+      - gzip
+      Content-Length:
+      - '718'
+      Content-Type:
+      - application/json
+      Age:
+      - '0'
+      Connection:
+      - keep-alive
+      Server:
+      - ATS
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        H4sIAAAAAAAAA82X21LiQBCG3yXX1DqnTCZcLYKgIiCiKK4WNSQTkhCSbA6c
+        LN99m8p62iq3oKTAy3+q0/P3152Z5EmLRr6yMq2sBV6aaSUtTwIQD0cz/HBk
+        uTIZqxRWrSgPIQijkmbLTGrlX0+aZ0Og5Q4xo5ghjgjRCUVcYIh/zVqkgJXA
+        m6lpZCut7MggVZAyTxIVWksI8uMlRNgqtRIvzrwohDVHplkslz/VQk7jQP2w
+        oinEyGlhRDMRepXDRDl5aCvwE+ZBAKkTJbO1BF+YCx0xUtJiuTacJTns/fZA
+        oR3pBXmihlOVphLslrV1dksmEPFSKIjhWe72auP6zUn99ir17Er1uOVFndHx
+        h4rXT0G94J+BZIQRkNkyXqfte6kEpRbxcBqFmQsWcSGXSiZamSBsPq93jjPw
+        84/fFLA/PpfekTdIQR4ZOtM54t+NPDMR/4z8XzObosf5SnVnNG255yLq/+6M
+        Dc+xqlb/UOihvpehJybstA/0eHP0BtkdeuMyTiujxaDedLuV0yvacM1o1NI7
+        B0NvvENP9L1M/TboMdONHaH3jquL84tJPxWTbrfXa64coxL1m/xgB47xduAw
+        LIxvh54yvCP0Svhqiaxq+9JP2oPYu+u0B7MuMw6FnmMokWHDZJRjwtCe0KPN
+        6FMTRgOM0d1ctNdOj/Ibv76qsJN+c6kuZ2eGqJvxf+BjjMUb/BasqqRahOzs
+        4DGLFhAm4Bak9Du2gLFPj/3tWqCjexdJd9UIyXhA7VPZufMrc3H69RaQr7SA
+        vLZAmIyZe/niEZs3AHHT3NW9e3I9Dt35bYPOM91uryaco+tarykO/BJ86ADd
+        zzfndh1AYjevQIf7uHHrnfd8lOv9IGk2amM2dtOD3b6oQI8Msv7P2svwc843
+        Jy/Qpz9aW84+bVzd1XV3dB/VfleoOVkg7F7MmbNP9I/PfwDVFJ81Hw8AAA==
+    http_version: 
+  recorded_at: Mon, 02 Jun 2014 06:18:55 GMT
+recorded_with: VCR 2.9.2

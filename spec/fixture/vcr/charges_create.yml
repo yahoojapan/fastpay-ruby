@@ -1,0 +1,58 @@
+---
+http_interactions:
+- request:
+    method: post
+    uri: https://xxxxxxxxxxxxxxxxxxxxxxxx:@fastpay.yahooapis.jp/v1/charges
+    body:
+      encoding: US-ASCII
+      string: amount=400&card=tok_8d62d3931cfdb4262b48e8480af8e56e45b239a1&description=fastpay%40example.com&capture=false
+    headers:
+      Accept:
+      - "*/*; q=0.5, application/xml"
+      Accept-Encoding:
+      - gzip, deflate
+      User-Agent:
+      - FastPay-ruby 1.0.0
+      Content-Length:
+      - '108'
+      Content-Type:
+      - application/x-www-form-urlencoded
+  response:
+    status:
+      code: 201
+      message: Created
+    headers:
+      Date:
+      - Wed, 04 Jun 2014 10:43:16 GMT
+      P3p:
+      - policyref="http://privacy.yahoo.co.jp/w3c/p3p_jp.xml", CP="CAO DSP COR CUR
+        ADM DEV TAI PSA PSD IVAi IVDi CONi TELo OTPi OUR DELi SAMi OTRi UNRi PUBi
+        IND PHY ONL UNI PUR FIN COM NAV INT DEM CNT STA POL HEA PRE GOV"
+      Cache-Control:
+      - private
+      Vary:
+      - Accept-Encoding
+      Content-Encoding:
+      - gzip
+      Content-Length:
+      - '270'
+      Content-Type:
+      - application/json
+      Age:
+      - '2'
+      Connection:
+      - keep-alive
+      Server:
+      - ATS
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        H4sIAAAAAAAAA1WPS2vDMBCE/4vOpkhGbmKfCoXQY+khBEoxW3ndyNULPYJN
+        yH/vukkJPQg0o9Hst2emB9YxdexFw4Xkj5xOW29bLljF/OeEKv++Q/xCcow+
+        ofUDsm4Ek7BiqsSITi0UmsJCiQGTijpk7R15I6QcYHnCGWww+KC8pQxYXxz1
+        Ss7/RB9xLG5AoiFPRYS83glJbDfbpt1ULMDKmmOhsff0jWMEbUrE3mJKQKid
+        K8ZQEUTKnG9bkuhledGng5uf9yHC4Vu/BhOn3Vvzb931Fy1L8JKkrGVNMi+B
+        etleJyCFc+itd/lIkOIqF4TIupqL9rJODpmA7oRX5MS694/LDzxPlbV3AQAA
+    http_version: 
+  recorded_at: Wed, 04 Jun 2014 10:43:17 GMT
+recorded_with: VCR 2.9.2

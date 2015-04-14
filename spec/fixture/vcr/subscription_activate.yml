@@ -1,0 +1,59 @@
+---
+http_interactions:
+- request:
+    method: post
+    uri: https://xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx:@fastpay.yahooapis.jp/v1/subscription/subs_fXFlqO9xeCNKKEK3fnX82JBV/activate
+    body:
+      encoding: US-ASCII
+      string: subscription_id=subs_fXFlqO9xeCNKKEK3fnX82JBV&description=my%20plan
+    headers:
+      Accept:
+      - "*/*; q=0.5, application/xml"
+      Accept-Encoding:
+      - gzip, deflate
+      User-Agent:
+      - FastPay-ruby 1.0.0
+      Content-Length:
+      - '67'
+      Content-Type:
+      - application/x-www-form-urlencoded
+  response:
+    status:
+      code: 201
+      message: Created
+    headers:
+      Date:
+      - Mon, 15 Dec 2014 05:07:02 GMT
+      P3p:
+      - policyref="http://privacy.yahoo.co.jp/w3c/p3p_jp.xml", CP="CAO DSP COR CUR
+        ADM DEV TAI PSA PSD IVAi IVDi CONi TELo OTPi OUR DELi SAMi OTRi UNRi PUBi
+        IND PHY ONL UNI PUR FIN COM NAV INT DEM CNT STA POL HEA PRE GOV"
+      Cache-Control:
+      - private
+      Vary:
+      - Accept-Encoding
+      Content-Encoding:
+      - gzip
+      Content-Length:
+      - '278'
+      Content-Type:
+      - application/json
+      Age:
+      - '0'
+      Connection:
+      - keep-alive
+      Server:
+      - ATS
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        H4sIAAAAAAAAA02PUW+CMBSF/0uf+wA4mPAmbDPCglniFH0htS1bXSlIW6cx
+        /vddhMS99Xz39N5zrkgwFCFt97qsijd5XIZnnuRZ9ppNKlVMvTReI4ya/YFT
+        MxppJ1ojGgWcCd1KcinvS7az+fP7PF9+ZItgm6Sb3efK8+OZXyzAqQ0xVoOL
+        UCNOvCdWt1wxzkpGDEeRslLiYUz69SN2n9xp4DmO52FEOw6MjdANw8DFCAIo
+        FF2HIr0oc3pYb6zfylX64vwm+fE7dn++ivR/kfsvjCRkqRsGdyoiNcdIkRoE
+        qi+jQSjDuxORwCpxhtsPVNLGKtgFGUwnHtqBFvXwnHi+c4PcVpum5t1Q8vYH
+        seM9knUBAAA=
+    http_version: 
+  recorded_at: Mon, 15 Dec 2014 05:07:02 GMT
+recorded_with: VCR 2.9.2

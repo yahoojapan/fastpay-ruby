@@ -1,0 +1,208 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://xxxxxxxxxxxxxxxxxxxxxxxx:@fastpay.yahooapis.jp/v1/charges/ch_95115033050003540
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - "*/*; q=0.5, application/xml"
+      Accept-Encoding:
+      - gzip, deflate
+      User-Agent:
+      - FastPay-ruby 1.0.0
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Mon, 30 Mar 2015 07:51:08 GMT
+      Cache-Control:
+      - private
+      Vary:
+      - Accept-Encoding
+      Content-Encoding:
+      - gzip
+      Content-Length:
+      - '284'
+      Content-Type:
+      - application/json
+      Age:
+      - '0'
+      Connection:
+      - keep-alive
+      Server:
+      - ATS
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        H4sIAAAAAAAAA12QT0/DMAzFv0vOFUrblK09wRUJJHZASAhVXuKsmZomyh+0
+        atp3x90GE9zyXp7tn31kRrGOyaFvm7JseF3zhnNeN4KzgrntHmU6/0PYITmj
+        +ULrFLJOwxixYDKHgJOcKbT3MyUURhmMT8ZN5GmIycP8gAewfsQ76SxlwLo8
+        UV/B+Y/oA+o8KSQa8mRASMu7FNXqvm3XQhTMw8KaQqaxt/SVQ4MZc8BenuGm
+        PI43z2KMsPu1JQSqO143J9Gvtu/CrTdc4xD0Kz4ptdHP+uXxzwmWKjoALSRI
+        ikpUJNPsqS97MxFI4cH31k1pIPDyImeEwLqKl+1pmewTAf3bIrLu43O5ZEzO
+        Yrhgnr4Bqkw9CpoBAAA=
+    http_version: 
+  recorded_at: Mon, 30 Mar 2015 07:51:07 GMT
+- request:
+    method: post
+    uri: https://xxxxxxxxxxxxxxxxxxxxxxxx:@fastpay.yahooapis.jp/v1/charges/ch_95115033050003540/refund
+    body:
+      encoding: US-ASCII
+      string: amount=100
+    headers:
+      Accept:
+      - "*/*; q=0.5, application/xml"
+      Accept-Encoding:
+      - gzip, deflate
+      User-Agent:
+      - FastPay-ruby 1.0.0
+      Content-Length:
+      - '10'
+      Content-Type:
+      - application/x-www-form-urlencoded
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Mon, 30 Mar 2015 07:51:08 GMT
+      Cache-Control:
+      - private
+      Vary:
+      - Accept-Encoding
+      Content-Encoding:
+      - gzip
+      Content-Length:
+      - '303'
+      Content-Type:
+      - application/json
+      Age:
+      - '2'
+      Connection:
+      - keep-alive
+      Server:
+      - ATS
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        H4sIAAAAAAAAA11QQWrDMBD8i86hyI6c2D4110ILzaEUSjEbeRUrWJaQ5BIT
+        8veu7TRpcpzZ2d2ZOTFds5LJpiqyJMn4cskzzvkyE5wtmN0dUMZpDn6PxLT6
+        B42tkZUK2oALJnvvsZMDiQ5uIEWNQXrtorYdcQpCdDA84xGMa/FJWkMaMLbv
+        6K7g/A9UHlXf1UhukpGVHiFOSKTrVVHkQiyYg9Ft9D09vukvThTotvdYycle
+        17ftjTMYAuyvtARPe6dLdgLVevcpbL7lChuv3vGlrrfqVb1t7koYt6gCiiQI
+        ilSkBOPg6C770AEI4dFVxnaxIePJDAcEz8qUJ8V5/OwiGXpIEVj5dbq2Mud/
+        7PWukDVP8lXxz9t8h52/x80QrUE/hz3/AvhdZxTiAQAA
+    http_version: 
+  recorded_at: Mon, 30 Mar 2015 07:51:09 GMT
+- request:
+    method: post
+    uri: https://xxxxxxxxxxxxxxxxxxxxxxxx:@fastpay.yahooapis.jp/v1/charges/ch_95115033050003540/refund
+    body:
+      encoding: US-ASCII
+      string: amount=100
+    headers:
+      Accept:
+      - "*/*; q=0.5, application/xml"
+      Accept-Encoding:
+      - gzip, deflate
+      User-Agent:
+      - FastPay-ruby 1.0.0
+      Content-Length:
+      - '10'
+      Content-Type:
+      - application/x-www-form-urlencoded
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Mon, 30 Mar 2015 07:51:10 GMT
+      Cache-Control:
+      - private
+      Vary:
+      - Accept-Encoding
+      Content-Encoding:
+      - gzip
+      Content-Length:
+      - '312'
+      Content-Type:
+      - application/json
+      Age:
+      - '0'
+      Connection:
+      - keep-alive
+      Server:
+      - ATS
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        H4sIAAAAAAAAA5VQwW7CMBT7l5yrKSkppZy266RNGodp0jRVj/QFipomStKJ
+        CvHvewEGA+3C0Y6fY3vH2obNmVrXVSFEwScTXnDOJ4XkLGN2uUEVD+/gV0hM
+        136jsQ2yuYYuYMbU4D32aiTRxo2kaDAo37rY2p44DSE6GB9xC8Z1+KCsIQ0Y
+        O/TkKzn/BbVHPfQNUpo8scojxISEzMtpVc2kzJiDlDb6gT6+6E9JNLTd4LFW
+        h3j90HUXzmAIsDrTCjzd7U7dCdTl8kPa2YJrXHv9hs9Ns9Av+vXpaoR0RRNQ
+        JUlQ5jInGEdHvuy9DUAIt642to9rCi6OcETwqZSo9ulnFynQTYvA5p+78yri
+        0P9216tBSi5m0+pPtqMP22d325T8H5uvdBmiNeiPm+1/ABSHoTEpAgAA
+    http_version: 
+  recorded_at: Mon, 30 Mar 2015 07:51:10 GMT
+- request:
+    method: post
+    uri: https://xxxxxxxxxxxxxxxxxxxxxxxx:@fastpay.yahooapis.jp/v1/charges/ch_95115033050003540/refund
+    body:
+      encoding: US-ASCII
+      string: amount=200
+    headers:
+      Accept:
+      - "*/*; q=0.5, application/xml"
+      Accept-Encoding:
+      - gzip, deflate
+      User-Agent:
+      - FastPay-ruby 1.0.0
+      Content-Length:
+      - '10'
+      Content-Type:
+      - application/x-www-form-urlencoded
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Mon, 30 Mar 2015 07:51:11 GMT
+      Cache-Control:
+      - private
+      Vary:
+      - Accept-Encoding
+      Content-Encoding:
+      - gzip
+      Content-Length:
+      - '317'
+      Content-Type:
+      - application/json
+      Age:
+      - '2'
+      Connection:
+      - keep-alive
+      Server:
+      - ATS
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        H4sIAAAAAAAAA5VQUUvDMBj8L3kuknTpuvZJXwUF9yCCSMmSL2tH04QklZWx
+        /+7XdW5uiMzHu9x3ubsdaRQpiayrImMso7MZzSils4xTkhC72oCMh3fh14BM
+        23yCsQpIqUUbICGy9x46OaBo4wZUKAjSNy42tkNOixCdGO5hK4xr4U5agxph
+        bN+hL6f0G1QedN8pUEdWehBxRIyn+bwoFpwnxIkxbfQ9fnzWT1iLpu09VPKQ
+        ruvb9swZCEGsT7QUHs92x+oIqnz1xu1iSTXUXr/Ao1JL/aSfHy42GK9wAWzE
+        EfKUpwjj4NCXvDZBIIKtq4ztYo252QQHEJ6UKWXFfvzZRQx0VSKQ8n13GoUd
+        6l/PerFHTtliXvzINvmQffJvm5z+bZPeaJP+YvMxXoZoDfhp+v0XeRIZ2W8C
+        AAA=
+    http_version: 
+  recorded_at: Mon, 30 Mar 2015 07:51:11 GMT
+recorded_with: VCR 2.9.3
